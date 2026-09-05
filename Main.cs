@@ -1,6 +1,7 @@
 using System;
 using GuiaPractica1.Ejercicio1;
 using GuiaPractica1.Ejercicio2;
+using GuiaPractica1.Ejercicio3;
 
 namespace GuiaPractica1
 {
@@ -45,7 +46,18 @@ namespace GuiaPractica1
 
             Console.WriteLine($"Datos finales: {empleado.Nombre}, {empleado.Edad} anios");
 
-            //  Ejercicios 3, 4 y 5...
+         // _________________________________________________________________________________
+
+            // --- EJERCICIO 3 ---
+            Console.WriteLine("\n--- Ejercicio 3: Herencia Simple (Vehiculo -> Coche)\n ---");
+            Coche coche = new Coche();
+
+            coche.Arrancar();   // metodo heredado de Vehiculo
+            coche.Conducir();   // metodo propio de Coche
+            coche.Detener();    // metodo heredado de Vehiculo
+            Console.WriteLine("El coche usa los metodos heredados y su propio metodo Conducir.");
+
+            //  Ejercicios 4 y 5...
         }
     }
 }
