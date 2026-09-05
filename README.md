@@ -43,8 +43,7 @@ Requisitos: [.NET SDK 8](https://dotnet.microsoft.com/download) o superior.
 dotnet run --project GuiaPractica1.csproj
 ```
 
-También puede ejecutarse desde Visual Studio Code con la extensión C# Dev Kit: abrir la
-carpeta raíz, elegir `GuiaPractica1` como proyecto de inicio y presionar `F5`.
+También puede ejecutarse desde Visual Studio Code con la extensión C# Dev Kit
 
 ## Ejercicios
 
