@@ -11,26 +11,14 @@ herencia y polimorfismo.
 
 ## Estructura del proyecto
 
-```
-├── Main.cs                 # Punto de entrada: ejecuta la demo de los 5 ejercicios
-├── GuiaPractica1.csproj    # Definición del proyecto (.NET 8)
-│
-├── Ejercicio1/             # Abstracción de datos
-│   └── CuentaBancaria.cs
-├── Ejercicio2/             # Encapsulación y control de acceso
-│   └── Empleado.cs
-├── Ejercicio3/             # Herencia simple
-│   ├── Vehiculo.cs
-│   └── Coche.cs
-├── Ejercicio4/             # Polimorfismo
-│   ├── Animal.cs
-│   ├── Perro.cs
-│   └── Gato.cs
-└── Ejercicio5/             # Herencia multinivel y sobrescritura
-    ├── Animal.cs
-    ├── Mamifero.cs
-    └── Perro.cs
-```
+El proyecto está estructurado de manera modular dentro de la solución de **.NET 8**, separando cada principio de POO en sus respectivas carpetas y namespaces:
+
+* **`Main.cs`**: Clase principal que coordina el flujo y ejecuta los casos de prueba solicitados para todos los ejercicios en la consola.
+* **`Ejercicio1` (Abstracción)**: Contiene `CuentaBancaria.cs`, donde se oculta la gestión directa del saldo.
+* **`Ejercicio2` (Encapsulación)**: Contiene `Empleado.cs`, implementando propiedades públicas con validaciones de rango.
+* **`Ejercicio3` (Herencia Simple)**: Incluye la relación entre la clase base `Vehiculo.cs` y la clase `Coche.cs`.
+* **`Ejercicio4` (Polimorfismo)**: Contiene `Animal.cs` con el método virtual `HacerSonido()`, y sus derivaciones en `Perro.cs` y `Gato.cs`.
+* **`Ejercicio5` (Herencia Multinivel)**: Implementa la clase intermedia `Mamifero.cs` (que reutiliza la base `Animal` del ejercicio anterior) y la especialización `Perro.cs` que completa la cadena jerárquica.
 
 Cada carpeta `Ejercicio` contiene únicamente las clases necesarias para el desarrollo de cada uno. Todas se compilan
 juntas por el proyecto principal y se demuestran desde `Main.cs`.
