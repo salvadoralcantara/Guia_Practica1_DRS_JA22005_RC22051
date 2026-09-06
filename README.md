@@ -6,8 +6,8 @@ herencia y polimorfismo.
 
 ## Alumnos:
 
-# Salvador Isaías Juárez Alcántara - JA22005
-# Guillermo Alexander Rodríguez Cortez - RC22051
+- Salvador Isaías Juárez Alcántara - JA22005
+- Guillermo Alexander Rodríguez Cortez - RC22051
 
 ## Estructura del proyecto
 
