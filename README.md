@@ -32,7 +32,7 @@ herencia y polimorfismo.
     └── Perro.cs
 ```
 
-Cada carpeta `Ejercicio` contiene únicamente las clases de ese ejercicio. Todas se compilan
+Cada carpeta `Ejercicio` contiene únicamente las clases necesarias para el desarrollo de cada uno. Todas se compilan
 juntas por el proyecto principal y se demuestran desde `Main.cs`.
 
 ## Cómo ejecutar
