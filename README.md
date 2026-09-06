@@ -1,4 +1,4 @@
-# Guia_Practica1_DRS_JA22005_RC22051
+# Actividad Evaluada 1: Guía de trabajo 
 
 Guía práctica 1 - Desarrollo y Reutilización de Software (Ciclo II/2026). Aplicación de los
 principios de programación orientada a objetos (POO) en C#: abstracción, encapsulación,
