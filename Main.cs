@@ -73,7 +73,13 @@ namespace GuiaPractica1
         // _________________________________________________________________________________
             
             // --- EJERCICIO 5 ---
-            
+            Console.WriteLine("\n--- Ejercicio 5: Herencia Multinivel (Animal -> Mamifero -> Perro) ---\n");
+
+            // Instanciamos el Perro del Ejercicio 5 (que hereda de Mamifero -> Animal)
+            GuiaPractica1.Ejercicio5.Perro perroMultinivel = new GuiaPractica1.Ejercicio5.Perro();
+
+            perroMultinivel.HacerSonido(); // Método sobrescrito
+            perroMultinivel.Alimentar();   // Método heredado de Mamifero
         }
     }
 }
