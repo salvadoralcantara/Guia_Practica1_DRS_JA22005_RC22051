@@ -2,6 +2,7 @@ using System;
 using GuiaPractica1.Ejercicio1;
 using GuiaPractica1.Ejercicio2;
 using GuiaPractica1.Ejercicio3;
+using GuiaPractica1.Ejercicio4;
 
 namespace GuiaPractica1
 {
@@ -49,7 +50,7 @@ namespace GuiaPractica1
          // _________________________________________________________________________________
 
             // --- EJERCICIO 3 ---
-            Console.WriteLine("\n--- Ejercicio 3: Herencia Simple (Vehiculo -> Coche)\n ---");
+            Console.WriteLine("\n--- Ejercicio 3: Herencia Simple (Vehiculo -> Coche) ---\n");
             Coche coche = new Coche();
 
             coche.Arrancar();   // metodo heredado de Vehiculo
@@ -57,7 +58,22 @@ namespace GuiaPractica1
             coche.Detener();    // metodo heredado de Vehiculo
             Console.WriteLine("El coche usa los metodos heredados y su propio metodo Conducir.");
 
-            //  Ejercicios 4 y 5...
+         // _________________________________________________________________________________
+            
+            // --- EJERCICIO 4 ---
+            Console.WriteLine("\n--- Ejercicio 4: Polimorfismo (Animal -> Perro, Gato) ---\n");
+
+            // Instancias que utilizan una referencia de la clase base Animal
+            Animal miPerro = new Perro();
+            Animal miGato = new Gato();
+
+            miPerro.HacerSonido(); // Ejecuta la versión de Perro
+            miGato.HacerSonido();  // Ejecuta la versión de Gato
+
+        // _________________________________________________________________________________
+            
+            // --- EJERCICIO 5 ---
+            
         }
     }
 }
