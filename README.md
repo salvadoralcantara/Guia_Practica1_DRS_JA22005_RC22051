@@ -47,8 +47,8 @@ También puede ejecutarse desde Visual Studio Code con la extensión C# Dev Kit
 
 ## Ejercicios
 
-1. **Abstracción** — `CuentaBancaria`: el saldo es privado y solo se accede por los métodos.
-2. **Encapsulación** — `Empleado`: campos privados protegidos por propiedades validadas.
-3. **Herencia simple** — `Coche` hereda de `Vehiculo` y añade su propio método.
-4. **Polimorfismo** — `Perro` y `Gato` sobrescriben `HacerSonido()` vía referencia `Animal`.
-5. **Herencia multinivel** — `Perro` → `Mamifero` → `Animal` con método sobrescrito.
+1. **Abstracción** - `CuentaBancaria`: el saldo es privado y solo se accede por los métodos.
+2. **Encapsulación** - `Empleado`: campos privados protegidos por propiedades validadas.
+3. **Herencia simple** - `Coche` hereda de `Vehiculo` y añade su propio método.
+4. **Polimorfismo** - `Perro` y `Gato` sobrescriben `HacerSonido()` vía referencia `Animal`.
+5. **Herencia multinivel** - `Perro` → `Mamifero` → `Animal` con método sobrescrito.
